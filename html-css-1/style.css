@@ -1,9 +1,87 @@
 body {
     height: 100vh;
     width: 100vw;
+    align-items: center;
 }
 
 header {
     width: 100%;
-    height: 
+    height: 35px;
+    background-color: gray;
+    display: flex;
+    position; relative;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+h2 {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    font-size: 15px;
+    width: 100px;
+}
+
+.nav-menu {
+    width: 200px;
+    font-size: 10px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+.top-section {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    /* color: yellow; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ .top-section > p {
+    height: 100%;
+    width: 100%;
+    color: yellow;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.main-content {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(76, 72, 102);
+}
+
+.container-1 .container-2 .container 3 {
+    height: 150px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.green-box {
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+    background-color: mediumaquamarine;
 }
